@@ -23,4 +23,13 @@ $(document).ready(function() {
 	$("#google").click(function(){
             $(".google").toggleClass("open");
     });
+	$("#warhol").click(function(){
+            $(".warhol").toggleClass("open");
+    });
+	$("#color-schemes").click(function(){
+            $(".color-schemes").toggleClass("open");
+    });
+	$("#propaganda").click(function(){
+            $(".propaganda").toggleClass("open");
+    });
 });

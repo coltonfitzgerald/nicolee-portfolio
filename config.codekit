@@ -11,7 +11,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-114x114.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-120x120.png": {
 		"fileType": 32768,
@@ -22,7 +22,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-120x120.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-144x144.png": {
 		"fileType": 32768,
@@ -33,7 +33,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-152x152.png": {
 		"fileType": 32768,
@@ -44,7 +44,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-152x152.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-180x180.png": {
 		"fileType": 32768,
@@ -55,7 +55,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-180x180.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-57x57.png": {
 		"fileType": 32768,
@@ -66,7 +66,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-57x57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-60x60.png": {
 		"fileType": 32768,
@@ -77,7 +77,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-60x60.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-72x72.png": {
 		"fileType": 32768,
@@ -88,7 +88,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-72x72.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-76x76.png": {
 		"fileType": 32768,
@@ -99,7 +99,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-76x76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
@@ -110,7 +110,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -121,7 +121,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/css\/main.css": {
 		"fileType": 16,
@@ -141,6 +141,298 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/demo\/shakespeare\/background.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/background.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/shakespeare\/css\/component.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/css\/component.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/shakespeare\/css\/demo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/css\/demo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/shakespeare\/css\/header3style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/css\/header3style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/shakespeare\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/shakespeare\/img\/background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 815140,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/background.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/background_background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 502673,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/background_background.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/background_background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/background_playssonnets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 233332,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/background_playssonnets.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/background_playssonnets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/background_terminology.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179975,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/background_terminology.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/background_terminology.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/backgroundBackground.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 453484,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/backgroundBackground.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/backgroundBackground.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/birthdate_sticker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47140,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/birthdate_sticker.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/birthdate_sticker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/boxbackground1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1049,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/boxbackground1.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/boxbackground1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/careers_sticker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58255,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/careers_sticker.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/careers_sticker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/family_sticker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67279,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/family_sticker.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/family_sticker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/header2background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40629,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/header2background.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/header2background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/header3background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4452,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/header3background.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/header3background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/header4background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31250,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/header4background.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/header4background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/iambic_sticker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71040,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/iambic_sticker.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/iambic_sticker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/plays.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116572,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/plays.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/plays.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/plays_continued.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200189,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/plays_continued.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/plays_continued.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/sonnets_header1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14419,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/sonnets_header1.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/sonnets_header1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/sonnets_header2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10296,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/sonnets_header2.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/sonnets_header2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/terms_sticker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54441,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/terms_sticker.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/terms_sticker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/img\/theaters_sticker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70501,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/img\/theaters_sticker.png",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/img\/theaters_sticker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/demo\/shakespeare\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/shakespeare\/js\/sticker.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/js\/sticker.min.js",
+		"outputAbbreviatedPath": "\/demo\/shakespeare\/js\/min\/sticker.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/demo\/shakespeare\/sonnets.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/sonnets.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/demo\/shakespeare\/terminology.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/demo\/shakespeare\/terminology.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/favicon-160x160.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -150,7 +442,7 @@
 		"outputAbbreviatedPath": "\/favicon-160x160.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-16x16.png": {
 		"fileType": 32768,
@@ -161,7 +453,7 @@
 		"outputAbbreviatedPath": "\/favicon-16x16.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-192x192.png": {
 		"fileType": 32768,
@@ -172,7 +464,7 @@
 		"outputAbbreviatedPath": "\/favicon-192x192.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-32x32.png": {
 		"fileType": 32768,
@@ -183,7 +475,7 @@
 		"outputAbbreviatedPath": "\/favicon-32x32.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-96x96.png": {
 		"fileType": 32768,
@@ -194,7 +486,18 @@
 		"outputAbbreviatedPath": "\/favicon-96x96.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/bulletinboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217162,
+		"inputAbbreviatedPath": "\/img\/bulletinboard.png",
+		"outputAbbreviatedPath": "\/img\/bulletinboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/cherrypopdesigns.png": {
 		"fileType": 32768,
@@ -205,18 +508,139 @@
 		"outputAbbreviatedPath": "\/img\/cherrypopdesigns.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/ITmeetshiphop.png": {
+	"\/img\/flash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91985,
+		"inputAbbreviatedPath": "\/img\/flash.png",
+		"outputAbbreviatedPath": "\/img\/flash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/freshman.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.20362e+06,
+		"inputAbbreviatedPath": "\/img\/freshman.png",
+		"outputAbbreviatedPath": "\/img\/freshman.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/google-infographic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121902,
+		"inputAbbreviatedPath": "\/img\/google-infographic.png",
+		"outputAbbreviatedPath": "\/img\/google-infographic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/inspiration.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236412,
+		"inputAbbreviatedPath": "\/img\/inspiration.jpg",
+		"outputAbbreviatedPath": "\/img\/inspiration.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/itmeetshiphop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 218038,
-		"inputAbbreviatedPath": "\/img\/ITmeetshiphop.png",
-		"outputAbbreviatedPath": "\/img\/ITmeetshiphop.png",
+		"inputAbbreviatedPath": "\/img\/itmeetshiphop.png",
+		"outputAbbreviatedPath": "\/img\/itmeetshiphop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/junior.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 953542,
+		"inputAbbreviatedPath": "\/img\/junior.png",
+		"outputAbbreviatedPath": "\/img\/junior.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/nacte.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54996,
+		"inputAbbreviatedPath": "\/img\/nacte.png",
+		"outputAbbreviatedPath": "\/img\/nacte.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/portfolio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 145218,
+		"inputAbbreviatedPath": "\/img\/portfolio.png",
+		"outputAbbreviatedPath": "\/img\/portfolio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/self-portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 193227,
+		"inputAbbreviatedPath": "\/img\/self-portrait.jpg",
+		"outputAbbreviatedPath": "\/img\/self-portrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/senior.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 822633,
+		"inputAbbreviatedPath": "\/img\/senior.png",
+		"outputAbbreviatedPath": "\/img\/senior.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/sketchbook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169006,
+		"inputAbbreviatedPath": "\/img\/sketchbook.png",
+		"outputAbbreviatedPath": "\/img\/sketchbook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/sophomore.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 267271,
+		"inputAbbreviatedPath": "\/img\/sophomore.png",
+		"outputAbbreviatedPath": "\/img\/sophomore.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/visualzen.png": {
 		"fileType": 32768,
@@ -227,7 +651,7 @@
 		"outputAbbreviatedPath": "\/img\/visualzen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/williamshakespeare.png": {
 		"fileType": 32768,
@@ -238,7 +662,7 @@
 		"outputAbbreviatedPath": "\/img\/williamshakespeare.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -249,6 +673,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/min\/uglyhack-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/uglyhack-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/uglyhack-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/uglyhack.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/uglyhack.js",
+		"outputAbbreviatedPath": "\/js\/min\/uglyhack-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/mstile-144x144.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -258,7 +704,7 @@
 		"outputAbbreviatedPath": "\/mstile-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-150x150.png": {
 		"fileType": 32768,
@@ -269,7 +715,7 @@
 		"outputAbbreviatedPath": "\/mstile-150x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-310x150.png": {
 		"fileType": 32768,
@@ -280,7 +726,7 @@
 		"outputAbbreviatedPath": "\/mstile-310x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-310x310.png": {
 		"fileType": 32768,
@@ -291,7 +737,7 @@
 		"outputAbbreviatedPath": "\/mstile-310x310.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-70x70.png": {
 		"fileType": 32768,
@@ -302,7 +748,7 @@
 		"outputAbbreviatedPath": "\/mstile-70x70.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		}
 	},
 "hooks": [
