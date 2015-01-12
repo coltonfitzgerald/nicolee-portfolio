@@ -2,6 +2,7 @@ body {
     background-color: #EEEEEE;
     font: 16px "freight-sans-pro", Helvetica, Arial, sans-serif;
     font-weight: 300;
+	padding-bottom: 3em;
 }
 .container {
     max-width: 1000px;
@@ -115,4 +116,17 @@ a[href^="tel"] {
 
 .social-media svg:hover path {
     fill: #4A4A4A;
+}
+
+.academic-content .content,
+.academic-content .img {
+	display: inline-block;
+	vertical-align: top;
+}
+.academic-content .content {
+	max-width: 500px;
+	margin-left: 60px;
+}
+.academic-content .content h3 {
+	margin-top: 0;
 }
