@@ -47,11 +47,11 @@ h2 {
 }
 .projects li a {
 	text-align: center;
-	color: #7D7D7D;
 }
 .projects ul > li {
 	vertical-align:top;
 	margin-right: 8px;
+	color: #7D7D7D;
 }
 .projects ul ul li {
 	display: block;
@@ -59,6 +59,9 @@ h2 {
 .projects-list li,
 .academics-list > li {
 	text-align: center;
+}
+.academics-list > li {
+	color: black!important;
 }
 .academics-list ul {
 	text-align: left;
