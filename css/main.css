@@ -13,6 +13,12 @@ section {
     margin: 1em 0;
 }
 
+hr {
+	width: 175px;
+	margin-right: auto;
+	margin-left: 0;
+}
+
 h1 {
     margin-top: 0;
     text-transform: uppercase;
@@ -22,7 +28,6 @@ h1 {
 }
 
 h2 {
-    color: #9B9B9B;
     font-size: 17px;
     font-weight: 400;
     line-height: 21px;
@@ -41,12 +46,25 @@ h2 {
 }
 .projects li a {
 	text-align: center;
+	color: #7D7D7D;
 }
 .projects ul > li {
 	vertical-align:top;
+	margin-right: 8px;
 }
 .projects ul ul li {
 	display: block;
+}
+.projects-list li,
+.academics-list > li {
+	text-align: center;
+}
+.academics-list ul {
+	text-align: left;
+}
+
+.rewards ul ul {
+	margin-left: 132px;	
 }
 
 p {
