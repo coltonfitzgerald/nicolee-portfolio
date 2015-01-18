@@ -488,6 +488,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/andyworhol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317086,
+		"inputAbbreviatedPath": "\/img\/andyworhol.jpg",
+		"outputAbbreviatedPath": "\/img\/andyworhol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bulletinboard.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -509,6 +520,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/colorschemes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 599704,
+		"inputAbbreviatedPath": "\/img\/colorschemes.png",
+		"outputAbbreviatedPath": "\/img\/colorschemes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/flash.png": {
 		"fileType": 32768,
@@ -597,6 +619,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/propaganda.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251644,
+		"inputAbbreviatedPath": "\/img\/propaganda.png",
+		"outputAbbreviatedPath": "\/img\/propaganda.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/self-portrait.jpg": {
 		"fileType": 16384,

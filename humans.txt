@@ -1,13 +1,4 @@
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Nicole Overman -- Web Designer -- @nicoolee_ann
     Colton Fitzgerald -- Web Developer -- @colton_fitz
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr

@@ -58,6 +58,12 @@ h2 {
 }
 .projects-list li {
 	text-align: center;
+	opacity: 1;
+	transition: opacity .5s;
+}
+
+.projects-list li:hover {
+	opacity: .5;
 }
 
 .rewards ul ul {
