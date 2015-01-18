@@ -56,21 +56,8 @@ h2 {
 .projects ul ul li {
 	display: block;
 }
-.projects-list li,
-.academics-list > li {
+.projects-list li {
 	text-align: center;
-}
-.academics-list > li {
-	color: black!important;
-}
-.academics-list ul {
-	text-align: left;
-	margin-top: 4em;
-	margin-bottom: 1em;
-}
-.academics-list ul > li:hover {
-	text-decoration: underline;
-	cursor: pointer;
 }
 
 .rewards ul ul {
@@ -127,31 +114,4 @@ a[href^="tel"] {
 
 .social-media svg:hover path {
     fill: #4A4A4A;
-}
-
-.academic-content .content,
-.academic-content .img {
-	display: inline-block;
-	vertical-align: top;
-}
-.academic-content .content {
-	max-width: 500px;
-	margin-left: 60px;
-}
-.academic-content .content h3 {
-	margin-top: 0;
-}
-.content-block{
-	position: absolute;
-	left: 5000px;
-    opacity: 0;
-	transition: opacity 1s;
-	-webkit-transition: opacity 1s;
-}
-.open{
-	position: relative;
-	left: auto;
-    opacity: 1;
-	transition: opacity 1s;
-	-webkit-transition: opacity 1s;
 }
