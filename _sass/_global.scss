@@ -7,6 +7,8 @@ body {
      -webkit-animation:fadeIn ease-in 1 forwards 1s;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
      -moz-animation:fadeIn ease-in 1 forwards 1s;
      animation:fadeIn ease-in 1 forwards 1s;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -60,7 +62,7 @@ li {
 }
 
 a {
-    color: #9B9B9B;
+    color: #7D7D7D;
     text-decoration: none;
     &:hover {
         color: #4A4A4A;
@@ -122,6 +124,7 @@ h4 {
         }
         a {
             text-align: center;
+            color: #7D7D7D;
         }
         img {
             display: block;
@@ -166,5 +169,3 @@ h4 {
     display: inline-block;
     vertical-align: top;
 }
-
-
