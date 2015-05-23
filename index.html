@@ -6,7 +6,7 @@ layout: default
   <ul class="projects-list">
       {% for post in site.posts %}
       <li>
-        <a href="{{ post.site }}">
+        <a href="{{ post.site }}" title="{{ post.title }}" target="_blank">
           <img src="img/{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" width="235" height="168" />
           {{ post.title }}
         </a>
@@ -22,7 +22,7 @@ layout: default
   <div class="certifications">
     <h4>Visual Design Specialist</h4>
     <ul>
-      <li>Graphic Design & Illustration using Adobe Illustrator (April 2014)</li>
+      <li>Graphic Design &amp; Illustration using Adobe Illustrator (April 2014)</li>
       <li>Print & Digital Media Publication using Adobe InDesign (April 2014)</li>
       <li>Visual Communication using Adobe Photoshop (April 2014)</li>
     </ul>
@@ -40,5 +40,5 @@ layout: default
       <li>Email: <a href="mailto:nicole@nicoleoverman.me">nicole@nicoleoverman.me</a></li>
       <li>Phone: <a href="tel:+17022796559">702 . 279 . 6559</a></li>
   </ul>
-  <a href="nicole-overman-resume.pdf"><i>Click to see my Resume</i></a>
+  <a href="nicole-overman-resume.pdf" title="Resume" target="_blank"><i>Click to see my Resume</i></a>
 </section>
