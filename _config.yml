@@ -1,8 +1,11 @@
 # Site settings
 title: Nicole Overman | Portfolio
-email: your-email@domain.com
+email: nicole@nicoleoverman.me
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://nicoleoverman.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+sass:
+    style: :compressed
