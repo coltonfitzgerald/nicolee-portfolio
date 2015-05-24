@@ -1,44 +1,106 @@
----
-layout: default
----
-<section class="projects">
-  <h2>Projects:</h2>
-  <ul class="projects-list">
-      {% for post in site.posts %}
-      <li>
-        <a href="{{ post.site }}" title="{{ post.title }}" target="_blank">
-          <img src="img/{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}" width="235" height="168" />
-          {{ post.title }}
-        </a>
-      </li>
-      {% endfor %}
-  </ul>
-</section>
-<section class="rewards">
-  <h2>Rewards and Certifications</h2>
-  <p>SkillsUSA <span class="gold">Gold</span> Medal - 1st place for Web Design (April 2015)</p>
-  <p>SkillsUSA <span class="silver">Silver </span> Medal - 2nd place for Promotional Bulletin Board (March 2014)</p>
-  <h3>Adobe Certifications - </h3>
-  <div class="certifications">
-    <h4>Visual Design Specialist</h4>
-    <ul>
-      <li>Graphic Design &amp; Illustration using Adobe Illustrator (April 2014)</li>
-      <li>Print & Digital Media Publication using Adobe InDesign (April 2014)</li>
-      <li>Visual Communication using Adobe Photoshop (April 2014)</li>
-    </ul>
-    <h4>Web Design Specialist CS6</h4>
-    <ul>
-      <li>Rich Media Communication using Adobe Flash® CS6 (January 2015)</li>
-      <li>Web Authoring using Adobe Dreamweaver CS6 (February 2015)</li>
-      <li>Visual Communication using Adobe Photoshop CS6 (April 2014)</li>
-    </ul>
-  </div>
-</section>
-<section class="contact">
-  <h2>Contact Me:</h2>
-  <ul>
-      <li>Email: <a href="mailto:nicole@nicoleoverman.me">nicole@nicoleoverman.me</a></li>
-      <li>Phone: <a href="tel:+17022796559">702 . 279 . 6559</a></li>
-  </ul>
-  <a href="nicole-overman-resume.pdf" title="Resume" target="_blank"><i>Click to see my Resume</i></a>
-</section>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="//use.typekit.net/cdn8aiu.js" onload="try{Typekit.load();}catch(e){}" async></script>
+	<script src="js/modernizr.js"></script>
+	<title>Nicole Overman | Web Designer &amp; Illustrator</title>
+</head>
+<body>
+	<header role="banner">
+		<div class="container">
+			<h1>Nicole Overman</h1>
+			<p>Web Designer &bull; Illustrator</p>
+		</div>
+	</header>
+	<main class="cd-main" role="main">
+
+		<ul class="cd-gallery">
+			<li class="cd-item text">
+				<div>
+					<h2>About Me</h2>
+					<img src="img/nicolee-overman.png" alt="Nicole Overman" title="Nicole Overman" width="138" height="138">
+					<p>My name is Nicole Overman. My passion is graphic design and illustrating on the web.  Design is significant to me but I also enjoy collaborating and coding with developers to make a project exceed.</p>
+					<p>I’m currently a resident in Las Vegas, Nevada attending Southwest Career and Technical Academy for one last year. On my spare time, I like to relax, draw, clean, socialize, and make things cute.</p>
+					<img src="img/heart-line.png" alt="Heart Line" title="Heart Line" width="184" height="16" class="heart-line">
+				</div>
+			</li>
+
+			<li class="cd-item text">
+				<div>
+					<h2>Rewards</h2>
+					<ul>
+						<li>SkillsUSA <span class="gold">Gold</span> Medal - 1st place for Web Design (April 2015)</li>
+						<li>SkillsUSA <span class="silver">Silver</span> Medal - 2nd place for Promotional Bulletin Board (March 2014)</li>
+					</ul>
+					<h2>Certifications</h2>
+					<h3>Visual Design Specialist</h3>
+					<ul>
+						<li>Graphic Design & Illustration using Adobe Illustrator (April 2014)</li>
+						<li>Print & Digital Media Publication using Adobe InDesign (April 2014)</li>
+						<li>Visual Communication using Adobe Photoshop (April 2014)</li>
+					</ul>
+					<h3>Web Design Specialist CS6</h3>
+					<ul>
+						<li>Rich Media Communication using Adobe Flash® CS6 (January 2015)</li>
+						<li>Web Authoring using Adobe Dreamweaver CS6 (February 2015)</li>
+						<li>Visual Communication using Adobe Photoshop CS6 (April 2014)</li>
+					</ul>
+				</div>
+			</li>
+
+			<li class="cd-item portfolio-item">
+				<a  href="item-3.html">
+					<div>
+						<h2>Safety Dog Light</h2>
+						<p>E-commerce website for my father’s business.</p>
+						<b>View More</b>
+					</div>
+				</a>
+			</li>
+
+			<li class="cd-item portfolio-item">
+				<a href="item-4.html">
+					<div>
+						<h2>Cherry Pop Designs</h2>
+						<p>Client Business website.</p>
+						<b>View More</b>
+					</div>
+				</a>
+			</li>
+		</ul> <!-- .cd-gallery -->
+
+		<section class="contact">
+			<h2>Contact Me</h2>
+			<form action="">
+				<input type="text" id="name" placeholder="Name" name="name" required/>
+				<input type="email" id="email" placeholder="Email" name="email" required />
+				<textarea id="message" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+				<button type="submit">Send</button>
+			</form>
+		</section>
+	</main> <!-- .cd-main -->
+	<footer role="contentinfo">
+		<p>&copy; 2015 | Nicole Overman, Web Design at Southwest Career and Technical Academy</p>
+	</footer>
+
+	<div class="cd-folding-panel">
+
+		<div class="fold-left"></div> <!-- this is the left fold -->
+
+		<div class="fold-right"></div> <!-- this is the right fold -->
+
+		<div class="cd-fold-content">
+			<!-- content will be loaded using javascript -->
+		</div>
+
+		<a class="cd-close" href="#0"></a>
+	</div> <!-- .cd-folding-panel -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
