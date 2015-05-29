@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 footer {
-	background-color: #9C4749;
+	background-color: #892124;
 	height: 91px;
 	display: flex;
 	justify-content: center;
@@ -49,6 +49,9 @@ footer {
 		color: white;
 		@include font-size(13px);
 		text-align: center;
+		a {
+			color: white;
+		}
 	}
 }
 
@@ -64,10 +67,12 @@ Patterns - reusable parts of our design
 
 .gold {
 	color: #F8E71C;
+	font-weight: bold;
 }
 
 .silver {
 	color: #666;
+	font-weight: bold;
 }
 
 /* --------------------------------
@@ -80,12 +85,17 @@ header {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100vh;
-	background: #f1ebeb url('../img/header.jpg') center top/contain no-repeat;
+	//height: 100vh;
+	//background: #f1ebeb url('../img/header.jpg') center top/contain no-repeat;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	img {
+		max-width: 100%;
+		height: auto;
+		max-height: 100vh;
+	}
 	h1 {
 		@include font-size(160px);
 		font-family: $striped;
@@ -178,9 +188,43 @@ Main content
 
 	&.text {
 		display: flex;
+		height: 520px;
 		//align-items: center;
 		vertical-align: top;
 		justify-content: center;
+		padding: 0 2em;
+		&:nth-of-type(1) {
+			h2 {
+				margin-top: .75em;
+				margin-bottom: .5em;
+			}
+		}
+		&:nth-of-type(2) {
+			h2 {
+				margin-top: 1em;
+				margin-bottom: .5em;
+			}
+			li {
+				line-height: 25px;
+			}
+			ul {
+				margin-bottom: 40px;
+			}
+		}
+		@include MQ(L) {
+			padding: 0;
+			&:nth-of-type(1) {
+				h2 {
+					margin-top: 0;
+  					margin-bottom: 0.5em;
+				}
+			}
+			&:nth-of-type(2) {
+				h2 {
+					margin-top: .5em;
+				}
+			}
+		}
 		.heart-line {
 			margin-top: 5px;
 		}
@@ -215,19 +259,34 @@ Main content
 	}
 
 	&:nth-of-type(1) {
-		background-color: #EF979C;
+		background-color: #C84F56;
 	}
 
 	&:nth-of-type(2) {
-		background-color: #E07A80;
+		background-color: #B5363E;
+		height: 700px;
+	}
+
+	@include MQ(L) {
+		&:nth-of-type(2) {
+			height: 520px;
+		}
 	}
 
 	&:nth-of-type(3) {
-		background-color: #E56B6E;
+		background-color: #952528;
 	}
 
 	&:nth-of-type(4) {
-		background-color: #D06B72;
+		background-color: #7D1518;
+	}
+
+	&:nth-of-type(5) {
+		background-color: #B53539;
+	}
+
+	&:nth-of-type(6) {
+		background-color: #752124;
 	}
 
 	h2 {
@@ -236,12 +295,23 @@ Main content
 
 	p {
 		line-height: 25px;
-		font-size: 1.4rem;
+		@include MQ(L) {
+			font-size: 1.4rem;
+		}
+		font-size: 1rem;
 		//opacity: 0.6;
 		padding: 1em 0;
 		max-width: 442px;
 		margin: 0 auto;
 		text-align: center;
+	}
+
+	h2 {
+		line-height: 25px;
+	}
+
+	ul {
+		margin-bottom: 60px;
 	}
 
 	b {
@@ -266,13 +336,14 @@ Main content
 
 		h2 {
 			@include font-size(50px);
+			margin-bottom: 23px;
 		}
 
 		p {
 			@include font-size(15px);
 		}
 		&.portfolio-item {
-			h2, p {
+			h2, p, img {
 				@include transform(translateY(30px));
 				@include transition(transform 0.3s 0.1s);
 			}
@@ -286,7 +357,7 @@ Main content
 
 		.no-touch & a:hover {
 
-			h2, p {
+			h2, p, img {
 				@include transform(translateY(0));
 				@include transition(transform 0.3s 0s);
 			}
@@ -296,6 +367,7 @@ Main content
 				@include transform(translateY(0));
 				@include transition(opacity 0.3s 0.1s, transform 0.3s 0.1s);
 			}
+
 		}
 
 		.fold-is-open & {
@@ -479,6 +551,8 @@ folding panel
 	height: 100%;
 	width: 100%;
 	padding: 4em 2em;
+	text-align: center;
+	color: black;
 
 	visibility: hidden;
 	@include transition(visibility 0s $fold-content-animation);
@@ -490,8 +564,32 @@ folding panel
 
 	h2 {
 		font-size: 2.4rem;
-
+		margin-bottom: 1em;
 		@include transition(transform $fold-content-animation/2 $fold-content-animation/2, opacity $fold-content-animation/2 $fold-content-animation/2);
+	}
+
+	img {
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 2em;
+	}
+
+	a {
+		display: inline-block;
+		@include font-size(13px);
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		padding: 1em 1.3em;
+		border-radius: 50em;
+		border: 1px solid $color-2;
+		transition: background-color .25s, color .25s;
+		&:hover {
+			background-color: $color-2;
+			color: white;
+			transition: background-color .25s, color .25s;
+		}
 	}
 
 	p, em {
@@ -568,9 +666,15 @@ Contact
 -------------------------------- */
 
 .contact {
+	position: relative;
 	text-align: center;
 	max-width: 525px;
 	margin: 0 auto;
+	padding: 0 2em;
+
+	@include MQ(L) {
+		padding: 0;
+	}
 
 	h2 {
 		@include font-size(50px);
@@ -591,6 +695,9 @@ Contact
 		width: 100%;
 		font-weight: $medium;
 		font-family: $freight-sans;
+		&:focus {
+			outline: 0;
+		}
 	}
 
 	#name::-webkit-input-placeholder,
@@ -631,6 +738,13 @@ Contact
 		margin-top: 29px;
 		margin-bottom: 86px;
 		float: right;
+		transition: background-color .25s, color .25s;
+		&:hover {
+			cursor: pointer;
+			background-color: #E56B6E;
+			color: #F1EBEB;
+			transition: background-color .25s, color .25s;
+		}
 	}
 }
 
@@ -650,4 +764,41 @@ Javascript disabled
 		opacity: 1;
 		@include transform(translateY(0));
 	}
+}
+
+/* --------------------------------
+
+Animals
+
+-------------------------------- */
+#cute-yellow-dog {
+	position: absolute;
+	top: 0;
+  	right: 0;
+}
+
+#cute-sheep {
+	position: absolute;
+	left: -110px;
+	@include transform(rotate(-7deg));
+}
+
+#brown-squirrel {
+	position: absolute;
+	left: 10px;
+  	top: 180px;
+	@include MQ(L) {
+		left: 27%;
+		top: 243px;
+	}
+}
+
+#purple-dog {
+	position: absolute;
+	top: 160px;
+	right: 10px;
+	@include MQ(L) {
+		right: 10%;
+	}
+	//@include transform(rotate(8deg));
 }

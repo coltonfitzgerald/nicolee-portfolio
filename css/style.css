@@ -80,7 +80,7 @@ h1, h2 {
   font-family: "KG Hard Candy Solid", serif; }
 
 footer {
-  background-color: #9C4749;
+  background-color: #892124;
   height: 91px;
   display: flex;
   justify-content: center;
@@ -90,6 +90,8 @@ footer {
     font-size: 13px;
     font-size: 0.8125rem;
     text-align: center; }
+    footer p a {
+      color: white; }
 
 /* --------------------------------
 
@@ -100,10 +102,12 @@ Patterns - reusable parts of our design
   overflow: hidden; }
 
 .gold {
-  color: #F8E71C; }
+  color: #F8E71C;
+  font-weight: bold; }
 
 .silver {
-  color: #666; }
+  color: #666;
+  font-weight: bold; }
 
 /* --------------------------------
 
@@ -114,12 +118,14 @@ header {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
-  background: #f1ebeb url("../img/header.jpg") center top/contain no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center; }
+  header img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100vh; }
   header h1 {
     font-size: 160px;
     font-size: 10rem;
@@ -220,8 +226,28 @@ Main content
   transition: transform 0.5s 0.4s; }
   .cd-item.text {
     display: flex;
+    height: 520px;
     vertical-align: top;
-    justify-content: center; }
+    justify-content: center;
+    padding: 0 2em; }
+    .cd-item.text:nth-of-type(1) h2 {
+      margin-top: .75em;
+      margin-bottom: .5em; }
+    .cd-item.text:nth-of-type(2) h2 {
+      margin-top: 1em;
+      margin-bottom: .5em; }
+    .cd-item.text:nth-of-type(2) li {
+      line-height: 25px; }
+    .cd-item.text:nth-of-type(2) ul {
+      margin-bottom: 40px; }
+    @media only screen and (min-width: 1100px) {
+      .cd-item.text {
+        padding: 0; }
+        .cd-item.text:nth-of-type(1) h2 {
+          margin-top: 0;
+          margin-bottom: 0.5em; }
+        .cd-item.text:nth-of-type(2) h2 {
+          margin-top: .5em; } }
     .cd-item.text .heart-line {
       margin-top: 5px; }
   .cd-item > a {
@@ -240,22 +266,37 @@ Main content
     display: table-cell;
     vertical-align: middle; }
   .cd-item:nth-of-type(1) {
-    background-color: #EF979C; }
+    background-color: #C84F56; }
   .cd-item:nth-of-type(2) {
-    background-color: #E07A80; }
+    background-color: #B5363E;
+    height: 700px; }
+  @media only screen and (min-width: 1100px) {
+    .cd-item:nth-of-type(2) {
+      height: 520px; } }
   .cd-item:nth-of-type(3) {
-    background-color: #E56B6E; }
+    background-color: #952528; }
   .cd-item:nth-of-type(4) {
-    background-color: #D06B72; }
+    background-color: #7D1518; }
+  .cd-item:nth-of-type(5) {
+    background-color: #B53539; }
+  .cd-item:nth-of-type(6) {
+    background-color: #752124; }
   .cd-item h2 {
     font-size: 2.2rem; }
   .cd-item p {
     line-height: 25px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: 1em 0;
     max-width: 442px;
     margin: 0 auto;
     text-align: center; }
+    @media only screen and (min-width: 1100px) {
+      .cd-item p {
+        font-size: 1.4rem; } }
+  .cd-item h2 {
+    line-height: 25px; }
+  .cd-item ul {
+    margin-bottom: 60px; }
   .cd-item b {
     display: inline-block;
     font-size: 13px;
@@ -278,11 +319,12 @@ Main content
         padding-top: 50px; }
       .cd-item h2 {
         font-size: 50px;
-        font-size: 3.125rem; }
+        font-size: 3.125rem;
+        margin-bottom: 23px; }
       .cd-item p {
         font-size: 15px;
         font-size: 0.9375rem; }
-      .cd-item.portfolio-item h2, .cd-item.portfolio-item p {
+      .cd-item.portfolio-item h2, .cd-item.portfolio-item p, .cd-item.portfolio-item img {
         -webkit-transform: translateY(30px);
         -moz-transform: translateY(30px);
         -ms-transform: translateY(30px);
@@ -301,7 +343,7 @@ Main content
         -webkit-transition: opacity 0.3s 0s, -webkit-transform 0.3s 0s;
         -moz-transition: opacity 0.3s 0s, -moz-transform 0.3s 0s;
         transition: opacity 0.3s 0s, transform 0.3s 0s; }
-      .no-touch .cd-item a:hover h2, .no-touch .cd-item a:hover p {
+      .no-touch .cd-item a:hover h2, .no-touch .cd-item a:hover p, .no-touch .cd-item a:hover img {
         -webkit-transform: translateY(0);
         -moz-transform: translateY(0);
         -ms-transform: translateY(0);
@@ -529,6 +571,8 @@ folding panel
   height: 100%;
   width: 100%;
   padding: 4em 2em;
+  text-align: center;
+  color: black;
   visibility: hidden;
   -webkit-transition: visibility 0s 0.4s;
   -moz-transition: visibility 0s 0.4s;
@@ -542,9 +586,30 @@ folding panel
     transform: translateY(20px); }
   .cd-fold-content h2 {
     font-size: 2.4rem;
+    margin-bottom: 1em;
     -webkit-transition: -webkit-transform 0.2s 0.2s, opacity 0.2s 0.2s;
     -moz-transition: -moz-transform 0.2s 0.2s, opacity 0.2s 0.2s;
     transition: transform 0.2s 0.2s, opacity 0.2s 0.2s; }
+  .cd-fold-content img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em; }
+  .cd-fold-content a {
+    display: inline-block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1em 1.3em;
+    border-radius: 50em;
+    border: 1px solid #544173;
+    transition: background-color .25s, color .25s; }
+    .cd-fold-content a:hover {
+      background-color: #544173;
+      color: white;
+      transition: background-color .25s, color .25s; }
   .cd-fold-content p, .cd-fold-content em {
     line-height: 1.6; }
   .cd-fold-content em {
@@ -611,9 +676,14 @@ Contact
 
 -------------------------------- */
 .contact {
+  position: relative;
   text-align: center;
   max-width: 525px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 2em; }
+  @media only screen and (min-width: 1100px) {
+    .contact {
+      padding: 0; } }
   .contact h2 {
     font-size: 50px;
     font-size: 3.125rem;
@@ -633,6 +703,9 @@ Contact
     width: 100%;
     font-weight: 500;
     font-family: "freight-sans-pro"; }
+    .contact input:focus,
+    .contact textarea:focus {
+      outline: 0; }
   .contact #name::-webkit-input-placeholder,
   .contact #email::-webkit-input-placeholder,
   .contact #message::-webkit-input-placeholder {
@@ -661,7 +734,13 @@ Contact
     padding: 8px 34px;
     margin-top: 29px;
     margin-bottom: 86px;
-    float: right; }
+    float: right;
+    transition: background-color .25s, color .25s; }
+    .contact button:hover {
+      cursor: pointer;
+      background-color: #E56B6E;
+      color: #F1EBEB;
+      transition: background-color .25s, color .25s; }
 
 /* --------------------------------
 
@@ -680,3 +759,39 @@ Javascript disabled
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
     transform: translateY(0); }
+
+/* --------------------------------
+
+Animals
+
+-------------------------------- */
+#cute-yellow-dog {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+#cute-sheep {
+  position: absolute;
+  left: -110px;
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg); }
+
+#brown-squirrel {
+  position: absolute;
+  left: 10px;
+  top: 180px; }
+  @media only screen and (min-width: 1100px) {
+    #brown-squirrel {
+      left: 27%;
+      top: 243px; } }
+
+#purple-dog {
+  position: absolute;
+  top: 160px;
+  right: 10px; }
+  @media only screen and (min-width: 1100px) {
+    #purple-dog {
+      right: 10%; } }
