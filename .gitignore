@@ -1,4 +1,5 @@
 _site
 .sass-cache
+.codekit-cache
 _sass/bourbon/
 _sass/neat/
