@@ -8,7 +8,7 @@
 	<meta name="description" content="My name is Nicole Overman and I'm a Web Designer and Illustrator in the Las Vegas area. I build websites that sell.">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="//use.typekit.net/cdn8aiu.js" onload="try{Typekit.load();}catch(e){}" async></script>
-	<script src="js/modernizr.js"></script>
+	<script src="js/min/modernizr-min.js"></script>
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -32,7 +32,7 @@
 <body>
 	<header role="banner">
 		<div class="container">
-			<img src="img/header.jpg" alt="Nicole Overman, Designer and Illustrator" title="Nicole Overman, Designer and Illustrator" draggable="false">
+			<img src="img/header.jpg" srcset="img/header.jpg 1x, img/header.jpg 2x" alt="Nicole Overman, Designer and Illustrator" title="Nicole Overman, Designer and Illustrator" draggable="false">
 			<!-- <h1>Nicole Overman</h1> -->
 			<!-- <p>Web Designer &bull; Illustrator</p> -->
 		</div>
@@ -43,19 +43,19 @@
 			<li class="cd-item text">
 				<div>
 					<h2>About Me</h2>
-					<img src="img/nicole-overman.png" alt="Nicole Overman" title="Nicole Overman" width="138" height="138">
+					<img src="img/nicole-overman.png" srcset="img/nicole-overman.png 1x, img/nicole-overman@2x.png 2x" alt="Nicole Overman" title="Nicole Overman" width="138" height="138">
 					<p>My name is Nicole Overman. My passion is graphic design and illustrating on the web.  Design is significant to me but I also enjoy collaborating and coding with developers to make a project exceed.</p>
 					<p>I’m currently a resident in Las Vegas, Nevada attending Southwest Career and Technical Academy for one last year. On my spare time, I like to relax, draw, clean, socialize, and make things cute.</p>
-					<img src="img/heart-line.png" alt="Heart Line" title="Heart Line" width="184" height="16" class="heart-line">
+					<img src="img/heart-line.png" srcset="img/heart-line.png 1x, img/heart-line@2x.png 2x" alt="Heart Line" title="Heart Line" width="184" height="16" class="heart-line">
 				</div>
 			</li>
 
 			<li class="cd-item text">
 				<div>
-					<h2>Rewards</h2>
+					<h2>Awards</h2>
 					<ul>
-						<li>SkillsUSA <span class="gold">Gold</span> Medal - 1st place for Web Design (April 2015)</li>
-						<li>SkillsUSA <span class="silver">Silver</span> Medal - 2nd place for Promotional Bulletin Board (March 2014)</li>
+						<li>SkillsUSA <span class="gold">Gold</span> Medal - <i>1st place</i> for Web Design (April 2015)</li>
+						<li>SkillsUSA <span class="silver">Silver</span> Medal - <i>2nd place</i> for Promotional Bulletin Board (March 2014)</li>
 					</ul>
 					<h2>Certifications</h2>
 					<h3>Visual Design Specialist</h3>
@@ -73,30 +73,30 @@
 				</div>
 			</li>
 
-			<li class="cd-item portfolio-item">
-				<a  href="safety-dog-light.html">
+			<li class="cd-item portfolio-item" id="safety-dog-light">
+				<a  href="#safety-dog-light">
 					<div>
 						<h2>Safety Dog Light</h2>
 						<p>E-commerce website for my father’s business.</p>
-						<b>View More</b>
-						<img id="purple-dog" src="img/purple-dog.png" alt="Purple Dog" title="Purple Dog" width="72" height="117">
+						<b>Coming Soon</b>
+						<img id="purple-dog" src="img/purple-dog.png" srcset="img/purple-dog.png 1x, img/purple-dog@2x.png 2x" alt="Purple Dog" title="Purple Dog" width="72" height="117">
 					</div>
 				</a>
 			</li>
 
 			<li class="cd-item portfolio-item">
-				<a href="cherry-pop-designs.html">
+				<a href="cherry-pop-designs.html" class="live">
 					<div>
 						<h2>Cherry Pop Designs</h2>
 						<p>Client Business website.</p>
 						<b>View More</b>
-						<img id="brown-squirrel" src="img/brown-squirrel.png" alt="Brown Squirrel" title="Brown Squirrel" width="59" height="99">
+						<img id="brown-squirrel" src="img/brown-squirrel.png" srcset="img/brown-squirrel.png 1x, img/brown-squirrel@2x.png 2x" alt="Brown Squirrel" title="Brown Squirrel" width="59" height="99">
 					</div>
 				</a>
 			</li>
 
 			<li class="cd-item portfolio-item">
-				<a  href="hip-hop-meets-it.html">
+				<a  href="hip-hop-meets-it.html" class="live">
 					<div>
 						<h2>Hip Hop Meets IT</h2>
 						<p>Website for a local IT Conference.</p>
@@ -106,7 +106,7 @@
 			</li>
 
 			<li class="cd-item portfolio-item">
-				<a href="william-shakespeare.html">
+				<a href="william-shakespeare.html" class="live">
 					<div>
 						<h2>William Shakespeare</h2>
 						<p>Sophomore website project.</p>
@@ -119,13 +119,13 @@
 		<section class="contact">
 			<h2>Contact Me</h2>
 			<form action="//formspree.io/nicole@nicoleoverman.me" method="POST">
-				<img id="cute-yellow-dog" src="img/cute-yellow-dog.png" alt="Cute Yellow Dog" title="Cute Yellow Dog" width="83" height="90">
+				<img id="yellow-dog" src="img/yellow-dog.png" srcset="img/yellow-dog.png 1x, img/yellow-dog@2x.png 2x" alt="Yellow Dog" title="Yellow Dog" width="83" height="90">
 				<input type="text" id="name" placeholder="Name" name="name" required/>
 				<input type="email" id="email" placeholder="Email" name="_replyto" required />
 				<textarea id="message" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
 				<button type="submit">Send</button>
 			</form>
-			<img id="cute-sheep" src="img/cute-sheep.png" alt="Cute Sheep" title="Cute Sheep" width="84" height="105">
+			<img id="sheep" src="img/sheep.png" srcset="img/sheep.png 1x, img/sheep@2x.png 2x" alt="Sheep" title="Sheep" width="84" height="105">
 		</section>
 	</main> <!-- .cd-main -->
 	<footer role="contentinfo">
@@ -145,8 +145,8 @@
 
 		<a class="cd-close" href="#0"></a>
 	</div> <!-- .cd-folding-panel -->
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js" async></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<script src="js/min/main-min.js"></script> <!-- Resource jQuery -->
 </body>
 </html>

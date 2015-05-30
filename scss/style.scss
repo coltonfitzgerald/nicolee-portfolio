@@ -28,12 +28,9 @@ body {
 	color: white;
 	background-color: #F1EBEB;
 	font-weight: $light;
-	    opacity:0;  /* make things invisible upon start */
-     -webkit-animation:fadeIn ease-in 1 forwards 1s;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-     -moz-animation:fadeIn ease-in 1 forwards 1s;
-     animation:fadeIn ease-in 1 forwards 1s;
-     -webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
+	opacity:0;  /* make things invisible upon start */
+	@include font-smoothing;
+	@include animation(fadeIn ease-in 1 forwards 2s);
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -48,6 +45,10 @@ a {
 
 h1, h2 {
 	font-family: $secondary-font;
+}
+
+i {
+	font-style: italic;
 }
 
 footer {
@@ -782,13 +783,13 @@ Javascript disabled
 Animals
 
 -------------------------------- */
-#cute-yellow-dog {
+#yellow-dog {
 	position: absolute;
 	top: 0;
   	right: 0;
 }
 
-#cute-sheep {
+#sheep {
 	position: absolute;
 	left: -110px;
 	@include transform(rotate(-7deg));

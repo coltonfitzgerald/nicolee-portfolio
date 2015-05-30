@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 	/* open folding content */
-	$('.cd-gallery a').on('click', function(event){
+	$('.cd-gallery a.live').on('click', function(event){
 		event.preventDefault();
 		openItemInfo($(this).attr('href'));
 	});
